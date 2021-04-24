@@ -1,6 +1,6 @@
-// https://github.com/Ashraful-Hasan10/Assignment-JS
+// https://github.com/thamidislam/Assignment-3
 
-// 1st problem( Kilometer to meter )
+// 1st problem( Conversion of Feet to Mile );
 
 function kilometerToMeter (num){
     if(num<0){
@@ -16,9 +16,10 @@ function kilometerToMeter (num){
 // Example to check the code:
 kilometerToMeter(6);
 
+// 1st problem Conversion of Feet to mile Done;
 
 
-// 2nd problem (Budget Calculator)
+// 2nd problem (Budget Calculator);
 
 function budgetCalculator(num1, num2, num3){
     if(num1 <0 || num2 <0 || num3 <0 ){
@@ -38,10 +39,10 @@ function budgetCalculator(num1, num2, num3){
   // Example to check the code: 
  budgetCalculator(9, 0, 4);
    
-        
+ // 2nd problem (Budget Calculator) Done;       
 
 
-// 3rd Problem (Count The Hotel Cost)
+// 3rd Problem (Count The Hotel Cost);
 
 function hotelCost(Days){
     if(Days<0){
@@ -66,9 +67,11 @@ function hotelCost(Days){
 hotelCost(5);
         
 
+// 3rd Problem (Count The Hotel Cost) Done;
 
 
-// 4rth Problem (Largest Friend Name)
+
+// 4rth Problem (Largest Friend Name);
 function  megaFriend(name){  
  var large1 = name[0].length;
  var large2 = name[0];
@@ -86,6 +89,10 @@ function  megaFriend(name){
     return large2;
  }
 
+
+ // 4rth Problem (Largest Friend Name) Done;
+
+ 
  // Example to check the code:
  megaFriend(['Jhankar', 'Mahbub', 'Programming', 'Hero']);
  
